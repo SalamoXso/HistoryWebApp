@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Courier+Prime:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+@layer base {
+  * {
+    @apply m-0 p-0 box-border;
+  }
+  
+  body {
+    @apply bg-cinema-black text-cinema-cream font-sans overflow-hidden;
+  }
+}
+
+/* Retro TV overlay effect */
+@layer components {
+  .retro-overlay {
+    @apply fixed inset-0 pointer-events-none z-50;
+    background: radial-gradient(ellipse at center, transparent 60%, rgba(0,0,0,0.7) 100%);
+  }
+  
+  .scanline {
+    @apply fixed inset-0 pointer-events-none z-50;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0,0,0,0.05) 2px,
+      rgba(0,0,0,0.05) 4px
+    );
+  }
+  
+  .vignette {
+    @apply fixed inset-0 pointer-events-none z-50;
+    background: radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.8) 100%);
+  }
+  
+  .vintage-border {
+    @apply border-2 border-amber-800/30;
+    box-shadow: inset 0 0 30px rgba(0,0,0,0.5), 0 0 20px rgba(212,163,115,0.1);
+  }
+  
+  .vintage-text {
+    @apply font-serif tracking-wide;
+    text-shadow: 0 0 20px rgba(212,163,115,0.1);
+  }
+  
+  .film-grain {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .film-grain::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+    background-size: 200px 200px;
+    opacity: 0.05;
+    z-index: 10;
+  }
+
+  .tv-scanline {
+    position: relative;
+  }
+  
+  .tv-scanline::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0,0,0,0.05) 2px,
+      rgba(0,0,0,0.05) 4px
+    );
+    z-index: 10;
+  }
+
+  .vintage-glow {
+    box-shadow: 
+      0 0 40px rgba(212,163,115,0.05),
+      inset 0 0 40px rgba(212,163,115,0.02);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.9);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(212,163,115,0.4);
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212,163,115,0.6);
+}/* Add to the bottom of the file */
+/* Smooth scrolling for timeline */
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+/* Timeline drag cursor */
+.timeline-dragging {
+  cursor: grabbing !important;
+}
+
+/* Calendar animation */
+@keyframes calendarSlide {
+  from {
+    opacity: 0;
+    transform: translateX(-10px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+.calendar-enter {
+  animation: calendarSlide 0.2s ease-out forwards;
+}
+
+/* Sniper scope glow */
+@keyframes scopePulse {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(212, 163, 115, 0.1), inset 0 0 20px rgba(212, 163, 115, 0.05);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(212, 163, 115, 0.2), inset 0 0 40px rgba(212, 163, 115, 0.1);
+  }
+}
+
+.scope-ring {
+  animation: scopePulse 3s ease-in-out infinite;
+}/* Add to index.css */
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* Prevent wheel scrolling on the timeline */
+.timeline-container {
+  touch-action: none;
+}/* Custom scrollbar for year selector */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 3px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(212, 163, 115, 0.3);
+  border-radius: 10px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 163, 115, 0.5);
+}
+
+/* Firefox scrollbar */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(212, 163, 115, 0.3) transparent;
+}/* Year selector scrollbar */
+.year-scroll::-webkit-scrollbar {
+  width: 3px;
+}
+
+.year-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.year-scroll::-webkit-scrollbar-thumb {
+  background: rgba(212, 163, 115, 0.25);
+  border-radius: 10px;
+}
+
+.year-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 163, 115, 0.4);
+}
+
+/* Firefox scrollbar */
+.year-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(212, 163, 115, 0.25) transparent;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "chronicle-engine",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "turbo dev",
+    "dev:client": "npm run dev --workspace=@chronicle/client",
+    "dev:server": "npm run dev --workspace=@chronicle/server",
+    "build": "turbo build",
+    "clean": "turbo clean",
+    "type-check": "turbo type-check"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packageManager": "npm@10.5.0"
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "1954-11-01-001",
+    "title": "Déclenchement de la Révolution Algérienne",
+    "date": "1954-11-01",
+    "lat": 36.7538,
+    "lng": 3.0588,
+    "importance": 10,
+    "category": "political",
+    "description": "Le FLN lance la lutte armée pour l'indépendance de l'Algérie. 70 attaques simultanées sont menées à travers tout le pays, marquant le début de la guerre d'Algérie.",
+    "narration": "Le 1er novembre 1954, le Front de Libération Nationale déclenche la révolution algérienne.",
+    "sources": [
+      {
+        "title": "Wikipedia",
+        "url": "https://fr.wikipedia.org/wiki/Guerre_d%27Alg%C3%A9rie",
+        "retrieved": "2026-08-07",
+        "type": "wikipedia"
+      }
+    ],
+    "participants": ["FLN", "Peuple Algérien"],
+    "locationName": "Algérie"
+  },
+  {
+    "id": "1955-08-20-001",
+    "title": "Massacre de Philippeville",
+    "date": "1955-08-20",
+    "lat": 36.8833,
+    "lng": 6.9,
+    "importance": 8,
+    "category": "massacre",
+    "description": "Attaque du FLN contre des populations civiles européennes à Philippeville. Les représailles françaises feront des centaines de morts.",
+    "narration": "Le 20 août 1955, le massacre de Philippeville marque un tournant dans la révolution.",
+    "sources": [
+      {
+        "title": "Wikipedia",
+        "url": "https://fr.wikipedia.org/wiki/Massacre_de_Philippeville",
+        "retrieved": "2026-08-07",
+        "type": "wikipedia"
+      }
+    ],
+    "participants": ["FLN", "Armée Française", "Colons"],
+    "locationName": "Philippeville"
+  },
+  {
+    "id": "1956-09-30-001",
+    "title": "Bataille d'Alger - Début",
+    "date": "1956-09-30",
+    "lat": 36.7538,
+    "lng": 3.0588,
+    "importance": 10,
+    "category": "battle",
+    "description": "Début de la célèbre Bataille d'Alger. Le FLN intensifie ses attentats dans la capitale.",
+    "narration": "La Bataille d'Alger commence en septembre 1956.",
+    "sources": [
+      {
+        "title": "Wikipedia",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d%27Alger",
+        "retrieved": "2026-08-07",
+        "type": "wikipedia"
+      }
+    ],
+    "participants": ["FLN", "Armée Française"],
+    "locationName": "Alger"
+  },
+  {
+    "id": "1956-10-22-001",
+    "title": "Détournement de l'avion de Ben Bella",
+    "date": "1956-10-22",
+    "lat": 36.7538,
+    "lng": 3.0588,
+    "importance": 7,
+    "category": "political",
+    "description": "L'avion transportant cinq chefs du FLN, dont Ben Bella, est détourné par l'armée française.",
+    "narration": "Le 22 octobre 1956, l'avion de Ben Bella est détourné par les autorités françaises.",
+    "sources": [
+      {
+        "title": "Wikipedia",
+        "url": "https://fr.wikipedia.org/wiki/Ahmed_Ben_Bella",
+        "retrieved": "2026-08-07",
+        "type": "wikipedia"
+      }
+    ],
+    "participants": ["FLN", "Armée Française"],
+    "locationName": "Alger"
+  },
+  {
+    "id": "1957-01-07-001",
+    "title": "Bataille d'Alger - Phase Urbaine",
+    "date": "1957-01-07",
+    "lat": 36.7538,
+    "lng": 3.0588,
+    "importance": 9,
+    "category": "battle",
+    "description": "Phase la plus intense de la Bataille d'Alger. Le général Massu reçoit les pleins pouvoirs.",
+    "narration": "Janvier 1957, la Bataille d'Alger atteint son paroxysme.",
+    "sources": [
+      {
+        "title": "Wikipedia",
+        "url": "https://fr.wikipedia.org/wiki/Bataille_d%27Alger",
+        "retrieved": "2026-08-07",
+        "type": "wikipedia"
+      }
+    ],
+    "participants": ["FLN", "Armée Française"],
+    "locationName": "Alger-Casbah"
+  },
+  {
+    "id": "1957-03-23-001",
+    "title": "Mort de Ben M'hidi",
+    "date": "1957-03-23",
+    "lat": 36.7538,
+    "lng": 3.0588,
+    "importance": 9,
+    "category": "military",
+    "description": "Larbi Ben M'hidi, chef de la zone autonome d'Alger, est capturé et exécuté par l'armée française.",
+    "narration": "Le 23 mars 1957, Larbi Ben M'hidi est exécuté par l'armée française.",
+    "sources": [
+      {
+        "title": "Wikipedia",
+        "url": "https://fr.wikipedia.org/wiki/Larbi_Ben_M%27hidi",
+        "retrieved": "2026-08-07",
+        "type": "wikipedia"
+      }
+    ],
+    "participants": ["FLN", "Armée Française"],
+    "locationName": "Alger"
+  },
+  {
+    "id": "1957-09-17-001",
+    "title": "Création du GPRA",
+    "date": "1957-09-17",
+    "lat": 36.7538,
+    "lng": 3.0588,
+    "importance": 8,
+    "category": "political",
+    "description": "Création du Gouvernement Provisoire de la République Algérienne par le FLN.",
+    "narration": "Le 17 septembre 1957, le FLN crée le Gouvernement Provisoire.",
+    "sources": [
+      {
+        "title": "Wikipedia",
+        "url": "https://fr.wikipedia.org/wiki/Gouvernement_provisoire_de_la_R%C3%A9publique_alg%C3%A9rienne",
+        "retrieved": "2026-08-07",
+        "type": "wikipedia"
+      }
+    ],
+    "participants": ["FLN"],
+    "locationName": "Alger"
+  },
+  {
+    "id": "1958-05-13-001",
+    "title": "Crise du 13 mai 1958",
+    "date": "1958-05-13",
+    "lat": 36.7538,
+    "lng": 3.0588,
+    "importance": 9,
+    "category": "political",
+    "description": "Insurrection des colons à Alger qui conduit au retour du Général de Gaulle au pouvoir.",
+    "narration": "Le 13 mai 1958, la crise à Alger provoque le retour de De Gaulle.",
+    "sources": [
+      {
+        "title": "Wikipedia",
+        "url": "https://fr.wikipedia.org/wiki/Crise_du_13_mai_1958",
+        "retrieved": "2026-08-07",
+        "type": "wikipedia"
+      }
+    ],
+    "participants": ["Colons", "Armée Française"],
+    "locationName": "Alger"
+  },
+  {
+    "id": "1962-03-18-001",
+    "title": "Accords d'Évian",
+    "date": "1962-03-18",
+    "lat": 46.3203,
+    "lng": 6.4779,
+    "importance": 10,
+    "category": "treaty",
+    "description": "Signature des Accords d'Évian entre la France et le FLN, mettant fin à la guerre.",
+    "narration": "Le 18 mars 1962, les Accords d'Évian sont signés.",
+    "sources": [
+      {
+        "title": "Wikipedia",
+        "url": "https://fr.wikipedia.org/wiki/Accords_d%27%C3%89vian",
+        "retrieved": "2026-08-07",
+        "type": "wikipedia"
+      }
+    ],
+    "participants": ["France", "FLN"],
+    "locationName": "Évian"
+  },
+  {
+    "id": "1962-07-05-001",
+    "title": "Indépendance de l'Algérie",
+    "date": "1962-07-05",
+    "lat": 36.7538,
+    "lng": 3.0588,
+    "importance": 10,
+    "category": "political",
+    "description": "Proclamation officielle de l'indépendance de l'Algérie. Fin de 132 ans de colonisation.",
+    "narration": "Le 5 juillet 1962, l'Algérie proclame son indépendance.",
+    "sources": [
+      {
+        "title": "Wikipedia",
+        "url": "https://fr.wikipedia.org/wiki/Ind%C3%A9pendance_de_l%27Alg%C3%A9rie",
+        "retrieved": "2026-08-07",
+        "type": "wikipedia"
+      }
+    ],
+    "participants": ["Peuple Algérien", "FLN"],
+    "locationName": "Alger"
+  }
+]
